@@ -6,7 +6,7 @@ VoteNamibia is a simple way of finding voting information related to Regional, L
 
 ## Installation
 
-git clone https://github.com/geraldokandonga/voteapi
+git clone https://github.com/geraldokandonga/votenamibia
 
 ```bash
 npm install
