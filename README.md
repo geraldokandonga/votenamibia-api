@@ -2,7 +2,7 @@
 
 VoteNamibia is a simple way of finding voting information related to Regional, Local and Presidential Elections in Namibia.
 
-# This is the official repository for VoteNamibiaApi
+# This is the official repository for the backend of the VoteNamibia
 
 ## Installation
 
