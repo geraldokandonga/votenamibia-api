@@ -1,1 +1,1 @@
-# votenamibia
+# VoteNamibia
