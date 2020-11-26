@@ -12,8 +12,8 @@ const path = require("path"),
   cors = require("cors");
 
 // IMPORTS  ROUTES
-const AppError = require("./Api/_utils/appError");
-const globalErrorHandler = require("./Api/_helpers/errors");
+const AppError = require("./src/_utils/appError");
+const globalErrorHandler = require("./src/_helpers/errors");
 
 const app = express();
 
@@ -72,27 +72,27 @@ app.use((req, res, next) => {
 });
 
 // ROUTES
-app.use("/api/v1/auth", require("./Api/auth/auth.routes"));
-app.use("/api/v1/users", require("./Api/users/user.routes"));
-app.use("/api/v1/regions", require("./Api/regions/region.routes"));
+app.use("/v1/auth", require("./src/auth/auth.routes"));
+app.use("/v1/users", require("./src/users/user.routes"));
+app.use("/v1/regions", require("./src/regions/region.routes"));
 app.use(
-  "/api/v1/constituencies",
-  require("./Api/constituencies/constituency.routes")
+  "/v1/constituencies",
+  require("./src/constituencies/constituency.routes")
 );
 
 app.use(
-  "/api/v1/polling-stations",
-  require("./Api/pollingstations/pollingstation.routes")
+  "/v1/polling-stations",
+  require("./src/pollingstations/pollingstation.routes")
 );
 
 app.use(
-  "/api/v1/announcements",
-  require("./Api/announcements/announcement.routes")
+  "/v1/announcements",
+  require("./src/announcements/announcement.routes")
 );
 
-app.use("/api/v1/news", require("./Api/news/news.routes"));
+app.use("/v1/news", require("./src/news/news.routes"));
 
-app.use("/api/v1/stats", require("./Api/stats/stats.routes"));
+app.use("/v1/stats", require("./src/stats/stats.routes"));
 
 app.all("*", (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
