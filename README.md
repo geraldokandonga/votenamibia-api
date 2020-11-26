@@ -22,6 +22,6 @@ Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md
 
 ## License
 
-[MIT](https://github.com/geraldokandonga/voteapi/blob/main/LICENSE)
+[MIT](https://github.com/geraldokandonga/votenamibia/blob/main/LICENSE)
 
 When using the VoteNamibia or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
