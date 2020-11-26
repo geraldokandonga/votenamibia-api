@@ -1,5 +1,5 @@
 {
-  "name": "vote",
+  "name": "votenamibia-api",
   "version": "1.0.0",
   "description": "Official Voting Website for the republic of the Namibia.",
   "main": "app.js",
