@@ -6,19 +6,19 @@ VoteNamibia is a simple way of finding voting information related to Regional, L
 
 ## Installation
 
-- Clone Project 
+Clone Project 
 
 `$ git clone https://github.com/geraldokandonga/votenamibia`
 
-- Install and Boot MongoDB and Mongo Express Docker Images
+Install and Boot MongoDB and Mongo Express Docker Images
 
 `$ sudo docker-compose up`
 
-- Install Dependencies
+Install Dependencies
 
 `$ npm install`
 
-- Run Development Server
+Run Development Server
 
 `$ npm run dev`
 
