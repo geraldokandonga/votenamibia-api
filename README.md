@@ -8,7 +8,7 @@ VoteNamibia is a simple way of finding voting information related to Regional, L
 
 Clone Project 
 
-`$ git clone https://github.com/geraldokandonga/votenamibia`
+`$ git clone https://github.com/geraldokandonga/votenamibia-api`
 
 Install and Boot MongoDB and Mongo Express Docker Images
 
@@ -31,6 +31,6 @@ Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md
 
 ## License
 
-[MIT](https://github.com/geraldokandonga/voteapi/blob/main/LICENSE)
+[MIT](https://github.com/geraldokandonga/votenamibia-api/blob/main/LICENSE)
 
 When using the VoteNamibia or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).

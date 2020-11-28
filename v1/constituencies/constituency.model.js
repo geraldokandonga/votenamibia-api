@@ -52,7 +52,7 @@ const constituencySchema = new Schema(
           type: String,
           default: "default.jpg"
         },
-        part: {
+        party: {
           type: String
         },
         campaign: {
